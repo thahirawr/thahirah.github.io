@@ -1,0 +1,31 @@
+# Welcome to My Personal Website
+
+Hello! I'm Thahirah, an aspiring fintech professional passionate about using technology to reshape financial services. This website showcases my journey, reflections, and hobbies. Feel free to explore!
+
+## About Me
+
+I am Thahirah, a student specializing in Financial Technology at the Singapore Institute of Technology. My focus is on bridging technology with finance to create innovative, impactful solutions.
+
+## Education
+
+### Singapore Institute of Technology (SIT)
+- **Specialization**: Financial Technology (Applied Computing)
+- **Program**: Currently pursuing my degree at SIT, focusing on the intersection of technology and finance.
+
+### Temasek Polytechnic (TP)
+- **Program**: Computer Engineering
+- **Highlights**: Gained foundational skills in computer systems, programming, and IT infrastructure.
+
+### Pasir Ris Crest Secondary School
+- **Highlights**: Developed a strong academic foundation, actively participated in extracurricular activities, and honed leadership skills.
+
+
+### Skills
+- Fintech technologies
+- Ride-hailing innovations
+- Cloud computing and database systems
+
+### Professional Goals
+- To contribute to fintech advancements globally and leverage technology for financial inclusion.
+
+In my free time, I enjoy exploring new tech trends, practicing silat, and immersing myself in innovative projects.

@@ -1,0 +1,28 @@
+---
+format: html
+---
+
+project:
+  type: website
+  title: "Thahirah's Personal Website"
+  output-dir: docs
+  description: "A personal website showcasing my journey and hobbies."
+
+website:
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Project"
+        href: project.qmd
+      - text: "Reflection"
+        href: reflection.qmd
+      - text: "Hobbies"
+        href: hobbies.qmdquarto preview
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    code-fold: true

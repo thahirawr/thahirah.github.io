@@ -1,0 +1,82 @@
+---
+title: "Cloud Computing Project"
+format: html
+---
+
+# Cloud Computing and Big Data Project
+
+This project focuses on leveraging cloud computing technologies to analyze and extract insights from Twitter data related to U.S. airlines. It demonstrates the integration of distributed computing tools with AWS services to address real-world challenges in customer sentiment analysis.
+
+---
+
+## Project Overview
+
+**Objective:**  
+To analyze Twitter data for U.S. airlines using distributed computing tools like Apache Spark, Hadoop MapReduce, and AWS services. The project aims to identify trends in customer dissatisfaction and provide actionable insights for improving service quality.
+
+**Team Contributions:**
+| Name                       | Tasks Handled               |
+|----------------------------|-----------------------------|
+| Hazirah Binte Noor Azhar   | Tasks 4, 6                 |
+| Nur Afiqah Bte Omar        | Tasks 1, 6                 |
+| Sim Si Min Nicole          | Tasks 3, 6                 |
+| Tan Yu Jin (Chen Yujin)    | Tasks 5, 6                 |
+| Thahirah Binti Abdul Rahman| Tasks 2, 6                 |
+
+---
+
+## Key Tasks and Implementation
+
+### Task 1: Analyzing Flight Delays
+- **Objective:** Count delayed flight mentions using Apache Spark and AWS EMR.
+- **Data Flow:**
+  - Input: Raw data from 10 Excel files cleaned into a single CSV.
+  - Processing: PySpark filters and counts delay mentions.
+  - Output: Results stored in Amazon S3.
+
+---
+
+### Task 2: Identifying Top Negative Feedback
+- **Objective:** Analyze the top 5 negative feedback reasons for each airline.
+- **Data Flow:**
+  - Input: Raw data uploaded to S3.
+  - Processing: Spark processes data for top complaint reasons.
+  - Output: Results saved in CSV format to S3.
+
+---
+
+### Task 3: Country-Wise Complaints Analysis
+- **Objective:** Identify the country with the most airline complaints using Hadoop MapReduce.
+- **Data Flow:**
+  - Input: ISO-3166 Alpha-3 codes and cleaned data.
+  - Processing: Map-side join and sorting to identify complaints by country.
+  - Output: Results sorted in descending order.
+
+---
+
+### Advanced Features: Integration with AWS RDS
+- **Description:** Outputs from Task 6 are stored in a MySQL RDS database for scalability and reliability.
+- **Benefits:** Persistent cloud storage ensures easy access and efficient querying.
+
+---
+
+## Challenges and Solutions
+- **Debugging on EMR:** Limited visibility was mitigated using Jupyter Notebooks for local testing.
+- **Dataset Issues:** Cleaning and filtering were essential for maintaining data integrity.
+- **Visualization Dependencies:** Installing required libraries like Matplotlib and Seaborn resolved plotting issues on AWS.
+
+---
+
+## Results and Insights
+- **Most Common Complaints:** Flight delays, lost baggage, and poor service.
+- **Geographic Trends:** The U.S. had the highest volume of complaints.
+- **Visualization:** Heatmaps and bar charts provided actionable insights for airlines.
+
+---
+
+## Final Reflection
+
+This project highlights the power of cloud computing in handling large-scale datasets and deriving meaningful insights. By integrating AWS services with distributed computing tools, we demonstrated the potential to address complex challenges in customer sentiment analysis effectively.
+
+---
+
