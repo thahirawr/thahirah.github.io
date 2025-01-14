@@ -5,7 +5,7 @@ format: html
 project:
   type: website
   title: "Thahirah's Personal Website"
-  output-dir: docs
+  output-dir: index_files
   description: "A personal website showcasing my journey and hobbies."
 
 website:
