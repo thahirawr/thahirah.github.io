@@ -18,7 +18,7 @@ website:
       - text: "Reflection"
         href: reflection.qmd
       - text: "Hobbies"
-        href: hobbies.qmdquarto preview
+        href: hobbies.qmd
 
 
 format:
